@@ -34,15 +34,14 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingBottom="4dp"
             android:text="Powered by"
             android:textColor="#0C0B0B"
             android:textSize="16sp" />
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="218dp"
-            android:layout_height="wrap_content"
+            android:layout_width="202dp"
+            android:layout_height="50dp"
             android:adjustViewBounds="false"
             app:srcCompat="@drawable/improve10x_logo" />
     </LinearLayout>

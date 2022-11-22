@@ -10,16 +10,16 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.todoapplication.R;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class TaskAdapter extends RecyclerView.Adapter<TaskViewHolder> {
 
-    public ArrayList<Task> tasks;
+    public List<Task> tasks;
 
-    public void  setData(ArrayList<Task> taskArrayList) {
-        tasks = taskArrayList;
+    public void  setData(List<Task> tasksList) {
+        tasks = tasksList;
         notifyDataSetChanged();
     }
-
     @NonNull
     @Override
     public TaskViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
